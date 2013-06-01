@@ -1,4 +1,8 @@
-Thesisit-AH2013
+Documentacion Thesisit-AH2013
 ===============
 
-=)
+Developers:
+
+* Claudio Guerra
+* Anibal Bastias
+* Cristian Guerra
