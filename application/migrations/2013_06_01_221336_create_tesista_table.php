@@ -17,6 +17,7 @@ class Create_Tesista_Table {
 			$table->string('ciudad',100);
 			$table->string('pais',100);
 			$table->string('id_linkedin',100);
+			$table->timestamps();
 		});
 	}
 
