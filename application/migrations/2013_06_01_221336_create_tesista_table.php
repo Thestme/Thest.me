@@ -12,6 +12,8 @@ class Create_Tesista_Table {
 		Schema::create('tesista', function($table){
 			$table->increments('id_tesista');
 			$table->string('nom_completo',100);
+			$table->string('mail',100);
+			$table->string('password',100);
 			$table->integer('edad');
 			$table->integer('genero');
 			$table->string('ciudad',100);
