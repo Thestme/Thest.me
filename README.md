@@ -5,4 +5,4 @@ Developers:
 
 * Claudio Guerra
 * Anibal Bastias
-* Cristian Guerra
+* Cristian Valles
