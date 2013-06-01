@@ -6,3 +6,9 @@ Developers:
 * Claudio Guerra
 * Anibal Bastias
 * Cristian Valles
+
+Huslers:
+
+* Martin Mellado
+* Mathias Rosenthal
+* Julio Jimenez
