@@ -34,6 +34,7 @@
 
 //return View::make('home.index');
 Route::get('/', 'home@index');
+Route::get('/about', 'home@about');
 
 /*
 |--------------------------------------------------------------------------
