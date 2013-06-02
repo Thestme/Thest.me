@@ -6,7 +6,7 @@ class Create_Compras_Proyectos_Table {
     {
 		Schema::create('compras_proyectos', function($table) {
 			$table->increments('id');
-			$table->integer('empresa_id_empresa');
+			//$table->integer('empresa_id_empresa');
 			$table->timestamps();
 	});
 
