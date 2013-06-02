@@ -3,13 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Thest</title>
-	<link rel="stylesheet"  type="text/css" href="../css/master-page.css">
-	<link rel="stylesheet" type="text/css" href="../css/metro-bootstrap.css">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
-    <link href="css/bootstrap-overrides.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/theme.css">
-    <link rel="stylesheet" href="css/index.css" type="text/css" media="screen">
+	<link href="{{ URL::to('css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::to('css/bootstrap-responsive.min.css') }}" rel="stylesheet">
+    <link href="{{ URL::to('css/bootstrap-overrides.css') }}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ URL::to('css/theme.css') }}">
+    <link rel="stylesheet" href="{{ URL::to('css/index.css') }}" type="text/css" media="screen">
 
     <link href="css/css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen, projection">  
