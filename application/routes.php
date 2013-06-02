@@ -32,10 +32,11 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('home.index');
-});
+//return View::make('home.index');
+Route::get('/', 'home@index');
+//Route::get('about', 'home@about');
+Route::get('about', 'home@about');
+Route::controller('home');
 
 /*
 |--------------------------------------------------------------------------
