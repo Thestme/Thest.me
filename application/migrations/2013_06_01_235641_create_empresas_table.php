@@ -10,6 +10,7 @@ class Create_Empresas_Table {
 			$table->integer('tipo_empresa');
 			$table->string('rugro');
 			$table->string('mail_empresa');
+			$table->string('pass_empresa');
 			$table->integer('tipo_plan');
 			$table->timestamps();
 	});
