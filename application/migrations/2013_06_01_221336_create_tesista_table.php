@@ -9,8 +9,8 @@ class Create_Tesista_Table {
 	 */
 	public function up()
 	{
-		Schema::create('tesista', function($table){
-			$table->increments('id_tesista');
+		Schema::create('tesistas', function($table){
+			$table->increments('id');
 			$table->string('nom_completo',100);
 			$table->string('mail',100);
 			$table->string('password',100);
@@ -30,6 +30,6 @@ class Create_Tesista_Table {
 	 */
 	public function down()
 	{
-		Schema::drop('tesista');
+		Schema::drop('tesistas');
 	}
 }
