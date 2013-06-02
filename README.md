@@ -1,7 +1,7 @@
 Documentacion Thesisit-AH2013
 ===============
 
-Developers:
+Hackers:
 
 * Claudio Guerra claudevandort@gmail.com
 * Anibal Bastias anibal@firstjob.cl
