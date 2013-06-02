@@ -1,23 +1,26 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Wellcome to Thest</title>
-	<link rel="stylesheet"  type="text/css" href="../css/master-page.css">
-	<link rel="stylesheet" type="text/css" href="../css/metro-bootstrap.css">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://cleancanvas.herokuapp.com/sign-in.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Business Template</title>
+    
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <!-- Styles -->
+   <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="css/bootstrap-overrides.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/theme.css">
-    <link rel="stylesheet" href="css/index.css" type="text/css" media="screen">
-
     <link href="css/css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen, projection">  
 
-	<style type="text/css"></style>
-</head>
-<body class="pull_top" style="" cz-shortcut-listen="true">
-	<!--inicio menu -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen, projection">
+    <link rel="stylesheet" href="css/sign-in.css" type="text/css" media="screen">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<style type="text/css"></style></head>
+<body style="padding-top: 0px;" cz-shortcut-listen="true">
+        <!--inicio menu -->
     <div class="navbar transparent navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -31,114 +34,135 @@
             </a>
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
-                   <li><a href="index.php" class="active">Home</a></li>
-                    <li><a class="btn-header" href="login.php">Sign in</a></li>
+                     
+                    <li><a href="index.php" class="btn-header">Home</a></li>
+                    <li><a class="active" href="login.php">Sign in</a></li>
                     <li><a class="btn-header" href="enterprise.php">Enterprise</a></li>
-                 
                 </ul>
             </div>
         </div>
       </div>
     </div>
-	<!--término menu -->
+    <!--término menu -->
+     
 
-	<!--inicio Slider -->
-    <section id="feature_slider" class="">
-       
-        <article class="slide active" id="showcasing" style="background-image: url('img/foto2D.jpg'); display: block; background-position: 50% 0%; background-repeat: repeat no-repeat;">
-            <img class="asset left-30 sp600 t120 z1" src="img/macbook.png" style="left: 610px; top: 120px; z-index: 1; display: inline;">
-            <div class="info" style="display: block;">
-                <h2>We connect people developing</h2>
-            </div>
-        </article>
-        <article class="slide" id="ideas" style="background-image: url(http://cleancanvas.herokuapp.com/img/backgrounds/aqua.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
-            <div class="info" style="display: none;">
-                <h2>don't miss the opportunity to innovate</h2>
-            </div>
-            <img class="asset left-480 sp600 t260 z1" src="img/left.png" style="left: -841px; top: 260px; z-index: 1; display: inline;">
-            <img class="asset left-210 sp600 t213 z2" src="img/middle.png" style="left: -854px; top: 213px; z-index: 2; display: inline;">
-            <img class="asset left60 sp600 t260 z1" src="img/right.png" style="left: -849px; top: 260px; z-index: 1; display: inline;">
-        </article>
-        <article class="slide" id="tour" style="background-image: url(img/foto3D.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
-            <img class="asset left-472 sp650 t210 z3" src="img/ipad.png" style="left: -558px; top: 210px; z-index: 3; display: inline;">
-            <img class="asset left-365 sp600 t270 z4" src="img/iphone.png" style="left: -485px; top: 270px; z-index: 4; display: inline;">
-            <img class="asset left-350 sp450 t135 z2" src="img/desktop.png" style="left: -742px; top: 135px; z-index: 2; display: inline;">
-            <img class="asset left-185 sp550 t220 z1" src="img/macbook(1).png" style="left: -746px; top: 220px; z-index: 1; display: inline;">
-            <div class="info" style="display: none;">
-                <h2> Focus on the results</h2>
-                <a href="http://cleancanvas.herokuapp.com/features.html">TOUR THE PRODUCT</a>
-            </div>
-        </article>
-        <article class="slide" id="responsive" style="background-image: url(img/foto6D.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
-            <img class="asset left-472 sp600 t120 z3" src="img/html5.png" style="left: -732px; top: 120px; z-index: 3; display: inline;">
-            <img class="asset left-190 sp500 t120 z2" src="img/css3.png" style="left: -732px; top: 120px; z-index: 2; display: inline;">
-            <div class="info" style="display: none;">
-                <h2>
-                   Connect your reseach idea with the right developer
-                </h2>                
-            </div>
-        </article> 
-	</section>
-	<!--término slider -->
-	<!-- Inicio Buscador-->
-	<section id="search" style="margin-bottom: 50px;">
-		<div id="showcase">
+    <!-- Sign In Option 1 -->
+    <div id="sign_in1">
         <div class="container">
-            <div class="section_header">
-                <h3>Search Project</h3>
-            </div>            
-            <div class="span12">
-                <div class="span10 offset1">
-                	<div class="btn-group">
-                		 <form class="form-search">
-                      		<input type="text" class="input-xxlarge search-query" style="height:30px;font-size: 20px"  placeholder="what would you like to develop?">
-                      		<button type="submit" class="btn btn-warning" style="height:40px; font-size: 20px;">Search</button>
-                		</form>
-                	</div>
-                    
+            <div class="row">
+                <div class="span12 header">
+                    <h4>Log in to your account</h4>
+                    <p>
+                        There are many variations of passages of Lorem alteration in some form  injected humour these randomised words .</p>
+                    <div class="span4 social">
+                        <a href="#">
+                            <img src="img/linkedin.png" alt="">
+                        </a>
+                        
+                    </div>
                 </div>
-              
+
+                <div class="span3 division">
+                    <div class="line l"></div>
+                    <span>or</span>
+                    <div class="line r"></div>
+                </div>
+
+                <div class="span12 footer">
+                    <form>
+                        <input type="text" placeholder="Email">
+                        <input type="password" placeholder="Password" required>
+                        <input type="submit" class="btn btn-warning" placeholder="Confirm Password" value="sign in" required>
+                    </form>
+                </div>
+
+                <div class="span12 proof">
+                    <div class="span5 remember">
+                        <label class="checkbox">
+                            <input type="checkbox"> Remember me
+                        </label>
+                        <a href="http://cleancanvas.herokuapp.com/reset.html">Forgot password?</a>
+                    </div>
+
+                    <div class="span3 dosnt">
+                        <span>Don’t have an account?</span>
+                        <a href="#sign_in2">Sign up</a>
+                    </div>
+                </div>
             </div>
-            
         </div>
     </div>
-	</section>
-	<!-- Termino buscador-->
 
-	<!-- Inicio contenido-->
-	<section id="contenido" >
-		<div id="showcase">
-        	<div class="container">
-          		<div class="section_header">
-                	<h3>Recent Projects</h3>
-            	</div>
-            	<div class="row">
-            		<ul class="thumbnails">
-            	<!-- Aqui se debe generar un for para que se repita los proyectos de la base de datos-->
-				   <li class="span4" >
-				    <div class="thumbnail efecto3" style="border: 1px solid rgb(48, 43, 43);background: white; padding: 10px;">
-				      <img src="img/service2.png" class="img-rounded" >
-				      <fieldset style="border-bottom: 1px solid #e5e5e5; ">
-				      	<legend>Strategic management of diversity and inclusion</legend>
-				      	<p><strong>Category:</strong> Human resources</p>
-				      	<p><strong>Type:</strong> thesis</p>
-				      	<p><strong>Grade:</strong> Master of Science</p>
+    <!-- Sign In Option 2 -->
+    <div id="sign_in2">
+        <div class="container">
+            <div class="section_header" id="form_sing">
+                <h3>Sign in <span>(option 2)</span></h3>
+            </div>
+            <div class="row login">
+                <div class="span5 left_box">
+                    <h4>Log in to your account</h4>
 
-				      </fieldset>
-				      <a href="project.php" class="btn btn-warning" style="margin-top:10px">Lean more...</a>
-				    </div>
-				  </li>
+                    <div class="perk_box">
+                        <div class="perk">
+                            <span class="icos ico1"></span>
+                            <p><strong>Lorem alteration</strong> in some form  injected humour these randomised words .</p>
+                        </div>
+                        <div class="perk">
+                            <span class="icos ico2"></span>
+                            <p><strong>There are many variations</strong> of passages of Lorem alteration in some form  injected humour these randomised words.</p>
+                        </div>
+                        <div class="perk">
+                            <span class="icos ico3"></span>
+                            <p><strong>Alteration in some form</strong> injected humour these randomised words.</p>
+                        </div>
+                    </div>
+                </div>
 
-				 
-				 <!-- Aqui se debe terminar el for-->
-				</ul>
-            	</div>
-            	
-				
-        	</div>
-    	</div>
-	</section>
-	 <!-- starts footer -->
+                <div class="span6 signin_box">
+                    <div class="box">
+                        <div class="box_cont">
+                            <div class="social">
+                               <a href="#">
+                                    <img src="img/linkedin.png" alt="">
+                                </a>
+                            </div>
+
+                            <div class="division">
+                                <div class="line l"></div>
+                                <span>or</span>
+                                <div class="line r"></div>
+                            </div>
+
+                            <div class="form" id="formulario">
+                                <form>
+                                    
+                                    <input type="text" placeholder="Complete name" required>
+                                    <input type="text" placeholder="Email" required>
+                                    <input type="number" style="width: 96%; height: 27px;" placeholder="AGE" min="18" max="55" required>
+                                  
+                                    <select name="" id="" style="width: 96%; height: 27px;">
+                                        <option value="" >--Select genre--</option>
+                                        <option value="">Male</option>
+                                        <option value="">Female</option>
+
+                                    </select>
+                                      <input type="text" placeholder="Password" required>
+                                    <input type="text" placeholder="Confirm Password" required>
+                                     
+                                    <input type="submit" value="sign in">
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- End singn 2 -->
+
+      <!-- starts footer -->
     <footer id="footer">
         <div class="container">
             <div class="row sections">
@@ -244,12 +268,8 @@
         </div>
     </footer>
 
-   
- <script src="js/jquery-latest.js"></script>
+    <script src="js/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/theme.js"></script>
 
-    <script type="text/javascript" src="js/index-slider.js"></script>	
-
-</body>
-</html>
+</body></html>

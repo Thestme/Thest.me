@@ -1,23 +1,29 @@
-<!doctype html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Wellcome to Thest</title>
-	<link rel="stylesheet"  type="text/css" href="../css/master-page.css">
-	<link rel="stylesheet" type="text/css" href="../css/metro-bootstrap.css">
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+<!DOCTYPE html>
+<!-- saved from url=(0045)http://cleancanvas.herokuapp.com/sign-in.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Business Template</title>
+    
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <!-- Styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="css/bootstrap-overrides.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/theme.css">
-    <link rel="stylesheet" href="css/index.css" type="text/css" media="screen">
-
     <link href="css/css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen, projection">  
 
-	<style type="text/css"></style>
-</head>
-<body class="pull_top" style="" cz-shortcut-listen="true">
-	<!--inicio menu -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" media="screen, projection">
+    <link rel="stylesheet" href="css/sign-in.css" type="text/css" media="screen">
+
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<style type="text/css"></style></head>
+<body style="padding-top: 0px;" cz-shortcut-listen="true">
+        <!--inicio menu -->
     <div class="navbar transparent navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
@@ -27,121 +33,94 @@
                 <span class="icon-bar"></span>
             </a>
             <a class="brand" href="index.php">
-                <img src="img/logo_menu.png" alt="">
+               <img src="img/logo_menu.png" alt="">
             </a>
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
-                   <li><a href="index.php" class="active">Home</a></li>
+                     
+                    <li><a href="index.php" class="btn-header">Home</a></li>
                     <li><a class="btn-header" href="login.php">Sign in</a></li>
                     <li><a class="btn-header" href="enterprise.php">Enterprise</a></li>
-                 
                 </ul>
             </div>
         </div>
       </div>
     </div>
-	<!--término menu -->
+    <!--término menu -->
+     
 
-	<!--inicio Slider -->
-    <section id="feature_slider" class="">
-       
-        <article class="slide active" id="showcasing" style="background-image: url('img/foto2D.jpg'); display: block; background-position: 50% 0%; background-repeat: repeat no-repeat;">
-            <img class="asset left-30 sp600 t120 z1" src="img/macbook.png" style="left: 610px; top: 120px; z-index: 1; display: inline;">
-            <div class="info" style="display: block;">
-                <h2>We connect people developing</h2>
-            </div>
-        </article>
-        <article class="slide" id="ideas" style="background-image: url(http://cleancanvas.herokuapp.com/img/backgrounds/aqua.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
-            <div class="info" style="display: none;">
-                <h2>don't miss the opportunity to innovate</h2>
-            </div>
-            <img class="asset left-480 sp600 t260 z1" src="img/left.png" style="left: -841px; top: 260px; z-index: 1; display: inline;">
-            <img class="asset left-210 sp600 t213 z2" src="img/middle.png" style="left: -854px; top: 213px; z-index: 2; display: inline;">
-            <img class="asset left60 sp600 t260 z1" src="img/right.png" style="left: -849px; top: 260px; z-index: 1; display: inline;">
-        </article>
-        <article class="slide" id="tour" style="background-image: url(img/foto3D.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
-            <img class="asset left-472 sp650 t210 z3" src="img/ipad.png" style="left: -558px; top: 210px; z-index: 3; display: inline;">
-            <img class="asset left-365 sp600 t270 z4" src="img/iphone.png" style="left: -485px; top: 270px; z-index: 4; display: inline;">
-            <img class="asset left-350 sp450 t135 z2" src="img/desktop.png" style="left: -742px; top: 135px; z-index: 2; display: inline;">
-            <img class="asset left-185 sp550 t220 z1" src="img/macbook(1).png" style="left: -746px; top: 220px; z-index: 1; display: inline;">
-            <div class="info" style="display: none;">
-                <h2> Focus on the results</h2>
-                <a href="http://cleancanvas.herokuapp.com/features.html">TOUR THE PRODUCT</a>
-            </div>
-        </article>
-        <article class="slide" id="responsive" style="background-image: url(img/foto6D.jpg); display: none; background-position: 50% 0%; background-repeat: repeat no-repeat;">
-            <img class="asset left-472 sp600 t120 z3" src="img/html5.png" style="left: -732px; top: 120px; z-index: 3; display: inline;">
-            <img class="asset left-190 sp500 t120 z2" src="img/css3.png" style="left: -732px; top: 120px; z-index: 2; display: inline;">
-            <div class="info" style="display: none;">
-                <h2>
-                   Connect your reseach idea with the right developer
-                </h2>                
-            </div>
-        </article> 
-	</section>
-	<!--término slider -->
-	<!-- Inicio Buscador-->
-	<section id="search" style="margin-bottom: 50px;">
-		<div id="showcase">
+  
+
+            <!-- Inicio cuerpo -->
+    <div id="cuerpo" style="margin-top:130px">
         <div class="container">
-            <div class="section_header">
-                <h3>Search Project</h3>
-            </div>            
-            <div class="span12">
-                <div class="span10 offset1">
-                	<div class="btn-group">
-                		 <form class="form-search">
-                      		<input type="text" class="input-xxlarge search-query" style="height:30px;font-size: 20px"  placeholder="what would you like to develop?">
-                      		<button type="submit" class="btn btn-warning" style="height:40px; font-size: 20px;">Search</button>
-                		</form>
-                	</div>
+            <div class="row">
+                <div class="span9">
                     
+                        <div class="span3" style="padding: 5px 26px; background: rgb(255,122,0);color:white; height:160px;">
+                            <h4> Stratefic management of diversity and inclusion</h4>
+                            <div class="span3" style="margin-left: 0px;">
+                                <p><strong>Release date:</strong> 11/22/2013</p>
+                                <p> </p>
+                            </div>
+                        </div>
+                        <div class="span5" style="height:170px; margin-left:0px;">
+                           <img src="img/service1.png" alt="" style="width:100%; height:100%;">
+                        </div>
+                    
+                
+                 <!-- End cuerpo -->
+                 <!-- inicio cuerpo 2 -->
+                <ul class="nav nav-tabs span6" id="myTab" style="margin-top:50px;background: #252528;">
+                  <li class="active"><a href="#home" style="color:white;">ABSTRACT</a></li>
+                  <li><a href="#profile"style="color:white;">USES</a></li>
+                  <li><a href="#messages"style="color:white;">TEAM</a></li>
+                  <li><a href="#settings"style="color:white;">FULL RESEACH</a></li>
+                  <li><a href="#settings"style="color:white;">Q&A'S</a></li>
+                </ul>
+                 
+                <div class="tab-content span8" style="background:#252528;padding:10px 18px;">
+                  <div class="tab-pane active" style="color:white;padding:20px;"id="home">saldjlskd</div>
+                  <div class="tab-pane" style="color:white;padding:20px;"id="profile">profile</div>
+                  <div class="tab-pane" style="color:white;padding:20px;"d="messages">messahe</div>
+                  <div class="tab-pane" style="color:white;padding:20px;"id="settings">settings</div>
                 </div>
-              
+                 
+               
+                </div>
+                <div class="span3">
+                    <div class="accordion" id="accordion2">
+                      <div class="accordion-group">
+                        <div class="accordion-heading">
+                          <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+                            Conect
+                          </a>
+                        </div>
+                        <div id="collapseOne" class="accordion-body collapse in">
+                          <div class="accordion-inner">
+                            Anim pariatur cliche...
+                          </div>
+                        </div>
+                      </div>
+                      
+                        </div>
+                      </div>
+                    </div>
+                   
+
+                </div>
+        <!-- Termini cuerpo 2 -->
             </div>
-            
         </div>
-    </div>
-	</section>
-	<!-- Termino buscador-->
+    </div> 
+   
+    
 
-	<!-- Inicio contenido-->
-	<section id="contenido" >
-		<div id="showcase">
-        	<div class="container">
-          		<div class="section_header">
-                	<h3>Recent Projects</h3>
-            	</div>
-            	<div class="row">
-            		<ul class="thumbnails">
-            	<!-- Aqui se debe generar un for para que se repita los proyectos de la base de datos-->
-				   <li class="span4" >
-				    <div class="thumbnail efecto3" style="border: 1px solid rgb(48, 43, 43);background: white; padding: 10px;">
-				      <img src="img/service2.png" class="img-rounded" >
-				      <fieldset style="border-bottom: 1px solid #e5e5e5; ">
-				      	<legend>Strategic management of diversity and inclusion</legend>
-				      	<p><strong>Category:</strong> Human resources</p>
-				      	<p><strong>Type:</strong> thesis</p>
-				      	<p><strong>Grade:</strong> Master of Science</p>
-
-				      </fieldset>
-				      <a href="project.php" class="btn btn-warning" style="margin-top:10px">Lean more...</a>
-				    </div>
-				  </li>
-
-				 
-				 <!-- Aqui se debe terminar el for-->
-				</ul>
-            	</div>
-            	
-				
-        	</div>
-    	</div>
-	</section>
-	 <!-- starts footer -->
+      <!-- starts footer -->
     <footer id="footer">
         <div class="container">
             <div class="row sections">
+
                 <div class="span4 recent_posts">
                     <h3 class="footer_header">
                         Recent Posts
@@ -199,6 +178,7 @@
                         <input type="submit" value="Send">
                     </form>
                 </div>
+
             </div>
             <div class="row credits">
                 <div class="span12">
@@ -243,13 +223,22 @@
             </div>
         </div>
     </footer>
+     <script>
+                  $(function () {
+                    $('#myTab a').click(function (e) {
+                      e.preventDefault();
+                      $(this).tab('show');
+                     })
+                    $('#collapseOne').collapse({
+                          hide: false
+                          
+                        })
+                  })
+                </script>
 
-   
- <script src="js/jquery-latest.js"></script>
+    <script src="js/jquery-latest.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/theme.js"></script>
 
-    <script type="text/javascript" src="js/index-slider.js"></script>	
 
-</body>
-</html>
+</body></html>
