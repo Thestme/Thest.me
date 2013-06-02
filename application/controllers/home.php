@@ -37,7 +37,7 @@ class Home_Controller extends Base_Controller {
 
 	public function action_about()
 	{
-		return 'About';
+		return View::make('home.about');
 	}
 
 }
