@@ -1,1 +1,0 @@
-This is the /home/claudevandort/Github/Thesisit-AH2013/application/views/user/show.blade.php view
