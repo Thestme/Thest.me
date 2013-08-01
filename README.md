@@ -4,7 +4,7 @@ Documentacion Thesisit-AH2013
 Hackers:
 
 * Claudio Guerra claudevandort@gmail.com
-* Anibal Bastias anibal@firstjob.cl
+* Anibal Bastias anibal.bastias@gmail.com
 * Cristian Valles cristian@foodland.cl
 
 Huslers:
